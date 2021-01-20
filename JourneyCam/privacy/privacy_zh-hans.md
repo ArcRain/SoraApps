@@ -5,7 +5,7 @@ JourneyCam 是一个完全的本地单机应用。所有使用产生的数据只
 
 本文内容或者在线存储服务中所涉及的三方品牌及标识提及均为文字引用，与相关品牌及商标无关。
 
-在线查看地址（[https://arcrain.github.io/JourneyCam/privacy/privacy_zh-hans.md](https://arcrain.github.io/JourneyCam/privacy/privacy_zh-hans.md)）
+在线查看地址 ([https://arcrain.github.io/JourneyCam/privacy/privacy_zh-hans.md](https://arcrain.github.io/JourneyCam/privacy/privacy_zh-hans.md))
 
 ### 我们收集或者访问哪些个人信息
 
