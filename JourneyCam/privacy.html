@@ -2,40 +2,28 @@
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
     <title>JourneyCam Privacy Policy</title>
+    <style>
+        html, body {
+            background: #ffffff;
+        }
+        a {
+            word-break: break-all;
+        }
+    </style>
 </head>
 <body>
     <div id="content"></div>
     <script type="text/javascript" src="/vendors/marked/marked.min.js"></script>
     <script type="text/javascript">
         (function (window) {
-            var urlQueryParams = function (search) {
-                var result = search.match(new RegExp("[\?\&][^\?\&]+=[^\?\&]+", "g"));
-                var params = {};
-                if (result == null || result.length < 1) {
-                    return params;
-                }
-                for (var i = 0; i < result.length; i++) {
-                    result[i] = result[i].substring(1);
-                    var kv = result[i].split("=");
-                    var value = null;
-                    if (kv.length > 1) {
-                        value = decodeURIComponent(kv[1]);
-                        if ("null" == value || "undefined" == value) {
-                            value = null;
-                        }
-                    }
-                    params[kv[0]] = value;
-                }
-                return params;
-            };
-            var supported_langs = ["en", "zh-hans"];
-            var params = urlQueryParams(window.location.search);
             var lang = "en";
-            if (-1 != supported_langs.indexOf(params.lang)) {
-                lang = params.lang;
+            var navlang = navigator.language||navigator.userLanguage;
+            navlang = navlang.toLowerCase();
+            if ("zh-cn" == navlang) {
+                lang = "zh-hans";
             }
-
             function reqListener() {
                 document.getElementById('content').innerHTML =
                     marked(this.responseText);
