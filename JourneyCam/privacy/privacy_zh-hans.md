@@ -1,11 +1,11 @@
-# JourneyCam 隐私政策
+﻿# JourneyCam 隐私政策
 
 JourneyCam 非常重视您的隐私。
 JourneyCam 是一个完全的本地单机应用。所有使用产生的数据只会存储在设备本地，不会有任何数据上传。并且不会生成或上传任何用户行为数据或应用统计信息。
 
 本文内容或者在线存储服务中所涉及的三方品牌及标识提及均为文字引用，与相关品牌及商标无关。
 
-在线查看地址 ([https://arcrain.github.io/JourneyCam/privacy/privacy_zh-hans.md](https://arcrain.github.io/JourneyCam/privacy/privacy_zh-hans.md))
+在线查看地址 ([https://arcrain.github.io/JourneyCam/privacy.html?lang=zh-hans](https://arcrain.github.io/JourneyCam/privacy.html?lang=zh-hans))
 
 ### 我们收集或者访问哪些个人信息
 
